@@ -5,12 +5,12 @@ const Input = styled.input`
     height: ${(props) => props.height || ""};
     margin: ${(props) => props.$margin || "0px"};
     padding: ${(props) => props.$padding || "5px 10px"};
-    background-color: ${(props) => props.theme.color || "inherit"};
+    background-color: ${(props) => props.theme.color[props.backcolor] || "inherit"};
     font-size: ${(props) => props.theme.fontSize[props.fontSize || "md"]};
-    color: ${(props) => props.theme.color || props.theme.color};
+    color: ${(props) => props.theme.color || "bk"};
     border: ${(props) => `${props.$border}` || "none"};
     border-color: ${(props) => props.theme.color[props.color || "border"]};
-    border-radius: ${(props) => `${props.$borderRadius}px` || "none"};
+    border-radius: ${(props) => `${props.$radius}px` || "none"};
     display: ${(props) => props.display || "inline-block"};
     text-indent: ${(props) => props.textIndent || 0};
     &:focus {
@@ -20,9 +20,9 @@ const Input = styled.input`
 
 const TextInput = styled(Input).attrs({ type: "text" })`
     border: 1px solid ${(props) => props.theme.color.grey1};
-    border-radius: ${(props) => `${props.$borderRadius}px` || "2px"};
+    border-radius: ${(props) => `${props.$radius}px` || "2px"};
     ::-webkit-input-placeholder {
-        color: ${(props) => props.theme.color.textColor};
+        color: ${(props) => props.theme.color.secondary};
         font-size: 10px;
     }
     box-sizing: border-box;

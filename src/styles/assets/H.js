@@ -5,11 +5,11 @@ const H1 = styled.h1`
     height: fit-content;
     margin: 0;
     padding: 0;
-    font-size: ${(props) => props.theme.fontSize[props.fontSize || "md"]};
-    font-weight: ${(props) => props.fontWeight || "700"};
+    font-size: ${(props) => props.theme.fontSize[props.fsize || "md"]};
+    font-weight: ${(props) => props.fweight || "700"};
     color: ${(props) => props.theme.color[props.color || "bk"]};
-    line-height: ${(props) => props.$lineHeight || "normal"};
-    letter-spacing: ${(props) => props.$letterSpacing || "normal"};
+    line-height: ${(props) => props.$lineheight || "normal"};
+    letter-spacing: ${(props) => props.$letterspacing || "normal"};
 `;
 
 const H2 = styled.h2`
@@ -17,11 +17,11 @@ const H2 = styled.h2`
     height: fit-content;
     margin: 0;
     padding: 0;
-    font-size: ${(props) => props.theme.fontSize[props.fontSize || "md"]};
-    font-weight: ${(props) => props.fontWeight || "500"};
+    font-size: ${(props) => props.theme.fontSize[props.fsize || "md"]};
+    font-weight: ${(props) => props.fweight || "500"};
     color: ${(props) => props.theme.color[props.color || "bk"]};
-    line-height: ${(props) => props.$lineHeight || "normal"};
-    letter-spacing: ${(props) => props.$letterSpacing || "normal"};
+    line-height: ${(props) => props.$lineheight || "normal"};
+    letter-spacing: ${(props) => props.$letterspacing || "normal"};
 `;
 
 export { H1, H2 };

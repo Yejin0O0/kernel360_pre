@@ -5,7 +5,7 @@ const Button = styled.button`
     height: ${(props) => props.height || "fit-content"};
     margin: ${(props) => props.$margin || "0px"};
     padding: ${(props) => props.$padding || "0px"};
-    background-color: ${(props) => props.theme.color[props.backgroundColor] || "transparent"};
+    background-color: ${(props) => props.theme.color[props.backcolor] || "transparent"};
     border: ${(props) => props.border || "none"};
     border-radius: ${(props) => `${props.radius}px` || "0"};
     cursor: pointer;

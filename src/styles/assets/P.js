@@ -5,17 +5,17 @@ const P = styled.p`
     height: fit-content;
     margin: 0;
     padding: 0;
-    font-size: ${(props) => props.theme.fontSize[props.fontSize || "md"]};
-    font-weight: ${(props) => props.fontWeight || "500"};
+    font-size: ${(props) => props.theme.fontSize[props.fsize || "md"]};
+    font-weight: ${(props) => props.fweight || "500"};
     word-wrap: break-word;
     color: ${(props) => props.theme.color[props.color || "bk"]};
-    white-space: ${(props) => props.$whiteSpace || "nowrap"};
+    white-space: ${(props) => props.$whitespace || "nowrap"};
     overflow: hidden;
     text-overflow: ellipsis;
     ${(props) => props.$center && "text-align: center"};
     ${(props) => props.$underline && "text-decoration-line: underline"};
-    line-height: ${(props) => props.$lineHeight || "normal"};
-    letter-spacing: ${(props) => props.$letterSpacing || "normal"};
+    line-height: ${(props) => props.$lineheight || "normal"};
+    letter-spacing: ${(props) => props.$letterspacing || "normal"};
 `;
 
 export default P;
