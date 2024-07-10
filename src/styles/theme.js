@@ -5,6 +5,7 @@ const theme = {
         notice: "#FF4423",
         information: "#54A6FF",
         bk: "#1A202C",
+        wh: "#FFFFFF",
     },
 
     fontSize: {
