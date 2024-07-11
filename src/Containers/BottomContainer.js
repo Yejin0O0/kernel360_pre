@@ -14,7 +14,7 @@ const Hr = styled.hr`
 
 const BottomContainer = () => {
     return (
-        <FlexDiv width="100%" $margin="80px 0" $backcolor="wh" $padding="80px 0">
+        <FlexDiv width="100%" $backcolor="wh" $padding="80px 0 0 0">
             <FlexDiv width="100%" $justifycontent="space-between">
                 <Div width="49%" $padding="0 50px">
                     <Logo />
@@ -117,7 +117,7 @@ const BottomContainer = () => {
                 </FlexDiv>
             </FlexDiv>
 
-            <Div width="100%" $padding="50px">
+            <Div width="100%" $padding="50px 50px 0 50px">
                 <Hr />
 
                 <FlexDiv width="100%" $padding="30px 0" $justifycontent="space-between">
