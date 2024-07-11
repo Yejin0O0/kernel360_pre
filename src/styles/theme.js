@@ -8,6 +8,7 @@ const theme = {
         lightGrey: "#C3D4E9",
         bk: "#1A202C",
         wh: "#FFFFFF",
+        background: "#F6F7F9",
     },
 
     fontSize: {
