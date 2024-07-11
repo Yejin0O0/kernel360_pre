@@ -13,15 +13,15 @@ const Div = styled.div`
     border-bottom: ${(props) => props.$borderb || ""};
     border-right: ${(props) => props.$borderr || ""};
     border-left: ${(props) => props.$borderl || ""};
-    border-radius: ${(props) => `${props.radius}px` || "none"};
+    border-radius: ${(props) => `${props.$radius}px` || "none"};
     border-collapse: collapse;
-    display: ${(props) => props.display || "block"};
+    display: ${(props) => props.$display || "block"};
     ${(props) => props.$pointer && "cursor:pointer;"};
     min-height: ${(props) => props.$minheight || ""};
     max-height: ${(props) => props.$maxheight || ""};
     min-width: ${(props) => props.$minwidth || ""};
     max-width: ${(props) => props.$maxwidth || ""};
-    overflow: ${(props) => props.overflow || "visible"};
+    overflow: ${(props) => props.$overflow || "visible"};
     position: ${(props) => props.$position || "static"};
     top: ${(props) => props.$top || ""};
     bottom: ${(props) => props.$bottom || ""};
@@ -35,8 +35,8 @@ const FlexDiv = styled(Div)`
     display: flex;
     align-items: ${(props) => props.$alignitems || "center"};
     justify-content: ${(props) => props.$justifycontent || "center"};
-    flex-direction: ${(props) => props.direction || "row"};
-    flex-wrap: ${(props) => props.wrap || "wrap"};
+    flex-direction: ${(props) => props.$direction || "row"};
+    flex-wrap: ${(props) => props.$wrap || "wrap"};
 `;
 
 export { Div, FlexDiv };
