@@ -4,6 +4,8 @@ const theme = {
         secondary: "#90A3BF",
         notice: "#FF4423",
         information: "#54A6FF",
+        darkGrey: "#596780",
+        lightGrey: "#C3D4E9",
         bk: "#1A202C",
         wh: "#FFFFFF",
     },
