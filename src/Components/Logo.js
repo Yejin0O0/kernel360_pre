@@ -3,7 +3,7 @@ import P from "../styles/assets/P";
 
 const Logo = () => {
     return (
-        <Div>
+        <Div $pointer>
             <P color="primary" $fweight={700} $fsize="xl" $lineheight="48px">
                 KernelRent
             </P>
