@@ -16,9 +16,15 @@ const BellNotification = styled.div`
     transform: translate(50%, -50%);
 `;
 
-const Header = () => {
+const HeaderContainer = () => {
     return (
-        <FlexDiv width="calc(100% - 100px)" height="124px" $justifycontent="space-between" $padding="0 50px ">
+        <FlexDiv
+            width="calc(100vw - (100vw - 100%));"
+            height="124px"
+            $justifycontent="space-between"
+            $padding="0 50px"
+            $backcolor="wh"
+        >
             <FlexDiv>
                 <Logo />
                 <FlexDiv
@@ -96,4 +102,4 @@ const Header = () => {
     );
 };
 
-export default Header;
+export default HeaderContainer;
