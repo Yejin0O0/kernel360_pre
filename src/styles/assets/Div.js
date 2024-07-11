@@ -29,6 +29,7 @@ const Div = styled.div`
     right: ${(props) => props.$right || ""};
     vertical-align: ${(props) => props.$verticalalign || ""};
     white-space: ${(props) => props.$whitespace || "nowrap"};
+    box-sizing: border-box;
 `;
 
 const FlexDiv = styled(Div)`
