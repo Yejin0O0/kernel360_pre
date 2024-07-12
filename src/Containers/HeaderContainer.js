@@ -94,7 +94,7 @@ const HeaderContainer = () => {
                     </Div>
                 </FlexDiv>
 
-                <Div width="44px" height="44px" $radius="99" $overflow="hidden">
+                <Div width="44px" height="44px" $radius="99" $overflow="hidden" $pointer $margin="0 10px">
                     <Img src="/images/profile.jpeg" />
                 </Div>
             </FlexDiv>
