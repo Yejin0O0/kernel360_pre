@@ -47,22 +47,22 @@ const BottomContainer = () => {
                 </Div>
                 <FlexDiv width="49%" $justifycontent="space-evenly">
                     <Div width="152px">
-                        <Div $margin="0 0 20px 0">
+                        <Div $margin="0 0 20px 0" $pointer>
                             <P $lineheight="24px" color="secondary">
                                 How it works
                             </P>
                         </Div>
-                        <Div $margin="0 0 20px 0">
+                        <Div $margin="0 0 20px 0" $pointer>
                             <P $lineheight="24px" color="secondary">
                                 Featured
                             </P>
                         </Div>
-                        <Div $margin="0 0 20px 0">
+                        <Div $margin="0 0 20px 0" $pointer>
                             <P $lineheight="24px" color="secondary">
                                 Featured
                             </P>
                         </Div>
-                        <Div $margin="0 0 20px 0">
+                        <Div $margin="0 0 20px 0" $pointer>
                             <P $lineheight="24px" color="secondary">
                                 Bussiness Relation
                             </P>
@@ -70,22 +70,22 @@ const BottomContainer = () => {
                     </Div>
 
                     <Div width="152px">
-                        <Div $margin="0 0 20px 0">
+                        <Div $margin="0 0 20px 0" $pointer>
                             <P $lineheight="24px" color="secondary">
                                 Events
                             </P>
                         </Div>
-                        <Div $margin="0 0 20px 0">
+                        <Div $margin="0 0 20px 0" $pointer>
                             <P $lineheight="24px" color="secondary">
                                 Blog
                             </P>
                         </Div>
-                        <Div $margin="0 0 20px 0">
+                        <Div $margin="0 0 20px 0" $pointer>
                             <P $lineheight="24px" color="secondary">
                                 Podcast
                             </P>
                         </Div>
-                        <Div $margin="0 0 20px 0">
+                        <Div $margin="0 0 20px 0" $pointer>
                             <P $lineheight="24px" color="secondary">
                                 Invite a friend
                             </P>
@@ -93,22 +93,22 @@ const BottomContainer = () => {
                     </Div>
 
                     <Div width="152px">
-                        <Div $margin="0 0 20px 0">
+                        <Div $margin="0 0 20px 0" $pointer>
                             <P $lineheight="24px" color="secondary">
                                 Events
                             </P>
                         </Div>
-                        <Div $margin="0 0 20px 0">
+                        <Div $margin="0 0 20px 0" $pointer>
                             <P $lineheight="24px" color="secondary">
                                 Blog
                             </P>
                         </Div>
-                        <Div $margin="0 0 20px 0">
+                        <Div $margin="0 0 20px 0" $pointer>
                             <P $lineheight="24px" color="secondary">
                                 Podcast
                             </P>
                         </Div>
-                        <Div $margin="0 0 20px 0">
+                        <Div $margin="0 0 20px 0" $pointer>
                             <P $lineheight="24px" color="secondary">
                                 Invite a friend
                             </P>
