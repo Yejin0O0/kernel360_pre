@@ -62,7 +62,7 @@ const HeaderContainer = () => {
                     $margin="0 10px"
                 >
                     <Div width="24px" height="24px">
-                        <Img src="/icons/heart.svg" />
+                        <Img src="/icons/heart_dark.svg" />
                     </Div>
                 </FlexDiv>
                 <FlexDiv
