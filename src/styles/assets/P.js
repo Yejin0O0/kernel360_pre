@@ -14,6 +14,7 @@ const P = styled.p`
     text-overflow: ellipsis;
     ${(props) => props.$center && "text-align: center"};
     ${(props) => props.$underline && "text-decoration-line: underline"};
+    ${(props) => props.$line && "text-decoration-line: line-through"};
     line-height: ${(props) => props.$lineheight || "normal"};
     letter-spacing: ${(props) => props.$letterspacing || "normal"};
 `;
