@@ -4,7 +4,7 @@ import Img from "../styles/assets/Img";
 
 const AppointmentContainer = () => {
     return (
-        <FlexDiv width="100%" $justifycontent="space-evenly">
+        <FlexDiv width="100%" $justifycontent="space-between">
             <Appointment pick />
             <FlexDiv $backcolor="primary" width="60px" height="60px" $radius="15" $pointer>
                 <Div width="24px" height="24px">

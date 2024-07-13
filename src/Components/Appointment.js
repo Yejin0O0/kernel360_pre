@@ -15,14 +15,7 @@ const Point = styled.div`
 const Appointment = (props) => {
     const { pick } = props;
     return (
-        <Div
-            width="582px"
-            height="132px"
-            $justifycontent="space-between"
-            $padding="30px 50px"
-            $backcolor="wh"
-            $radius="10"
-        >
+        <Div width="582px" $justifycontent="space-between" $padding="30px 50px" $backcolor="wh" $radius="10">
             <FlexDiv $margin="0 0 20px 0">
                 <FlexDiv width="25px" height="30px" $justifycontent="start">
                     <Point pick={pick} />
