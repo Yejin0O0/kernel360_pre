@@ -6,7 +6,7 @@ const AppointmentContainer = () => {
     return (
         <FlexDiv width="100%" $justifycontent="space-evenly">
             <Appointment pick />
-            <FlexDiv $backcolor="primary" width="60px" height="60px" $radius="15">
+            <FlexDiv $backcolor="primary" width="60px" height="60px" $radius="15" $pointer>
                 <Div width="24px" height="24px">
                     <Img src="icons/arrow-up-down.svg" />
                 </Div>
