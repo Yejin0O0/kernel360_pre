@@ -5,9 +5,11 @@ import { Div } from "../styles/assets/Div";
 
 const RentPage = () => {
     return (
-        <Div $backcolor="background" width="100%">
+        <Div width="100%">
             <HeaderContainer />
-            <AppointmentContainer />
+            <Div width="100%" $backcolor="background" $padding="0 3%">
+                <AppointmentContainer />
+            </Div>
             <BottomContainer />
         </Div>
     );
