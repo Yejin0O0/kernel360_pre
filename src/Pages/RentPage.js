@@ -1,10 +1,10 @@
 import React from "react";
 import BottomContainer from "../Containers/Common/BottomContainer";
 import HeaderContainer from "../Containers/Common/HeaderContainer";
-import AdvertisementContainer from "../Containers/Rent/AdvertisementContainer";
-import AppointmentContainer from "../Containers/Rent/AppointmentContainer";
-import PopularCarContainer from "../Containers/Rent/PopularCarContainer";
-import RecommendationCarContainer from "../Containers/Rent/RecommendationCarContainer";
+import RentAdvertisementContainer from "../Containers/Rent/RentAdvertisementContainer";
+import RentAppointmentContainer from "../Containers/Rent/RentAppointmentContainer";
+import RentPopularCarContainer from "../Containers/Rent/RentPopularCarContainer";
+import RentRecommendationCarContainer from "../Containers/Rent/RentRecommendationCarContainer";
 import { Div } from "../styles/assets/Div";
 
 const RentPage = () => {
@@ -12,10 +12,10 @@ const RentPage = () => {
         <Div width="100%">
             <HeaderContainer />
             <Div width="100%" $backcolor="background" $padding="3%">
-                <AdvertisementContainer />
-                <AppointmentContainer />
-                <PopularCarContainer />
-                <RecommendationCarContainer />
+                <RentAdvertisementContainer />
+                <RentAppointmentContainer />
+                <RentPopularCarContainer />
+                <RentRecommendationCarContainer />
             </Div>
             <BottomContainer />
         </Div>

@@ -33,7 +33,6 @@ const Appointment = (props) => {
         "김해",
         "제주",
         "안양",
-        ,
         "평택",
     ];
     const dateList = [

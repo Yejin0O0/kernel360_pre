@@ -1,21 +1,25 @@
 import CarCard from "../../Components/Common/CarCard";
-import LongSquareBtn from "../../Components/Common/LongSquareBtn";
-import recommendationCarData from "../../data/recommendation-car.json";
+import popularCarData from "../../data/popular-car.json";
 import { Div, FlexDiv } from "../../styles/assets/Div";
 import P from "../../styles/assets/P";
 
-const RecommendationCarContainer = () => {
+const RentPopularCarContainer = () => {
     return (
-        <FlexDiv direction="column" width="100%">
+        <Div width="100%" $margin="50px 0 10px 0">
             <FlexDiv width="100%" $justifycontent="space-between" $margin="20px 0">
                 <Div>
                     <P color="secondary" $lineheight="21px" $fweight="600">
-                        Recommendation Car
+                        Popular Car
+                    </P>
+                </Div>
+                <Div $pointer>
+                    <P color="primary" $lineheight="21px" $fweight="600">
+                        View All
                     </P>
                 </Div>
             </FlexDiv>
             <FlexDiv width="100%" $justifycontent="space-between">
-                {recommendationCarData.slice(0, 8).map((car) => (
+                {popularCarData.slice(0, 4).map((car) => (
                     <CarCard
                         key={car.id} // key 추가
                         name={car.name}
@@ -30,9 +34,8 @@ const RecommendationCarContainer = () => {
                     />
                 ))}
             </FlexDiv>
-            <LongSquareBtn text="Show more car" move="rentmore" />
-        </FlexDiv>
+        </Div>
     );
 };
 
-export default RecommendationCarContainer;
+export default RentPopularCarContainer;

@@ -1,8 +1,8 @@
-import Appointment from "../../Components/Rent/Appointment";
+import Appointment from "../../Components/Rent/RentAppointment";
 import { Div, FlexDiv } from "../../styles/assets/Div";
 import Img from "../../styles/assets/Img";
 
-const AppointmentContainer = () => {
+const RentAppointmentContainer = () => {
     return (
         <FlexDiv width="100%" $justifycontent="space-between">
             <Appointment pick />
@@ -16,4 +16,4 @@ const AppointmentContainer = () => {
     );
 };
 
-export default AppointmentContainer;
+export default RentAppointmentContainer;
