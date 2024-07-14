@@ -4,7 +4,7 @@ import AdvertisementContainer from "../Containers/AdvertisementContainer";
 import AppointmentContainer from "../Containers/AppointmentContainer";
 import BottomContainer from "../Containers/BottomContainer";
 import HeaderContainer from "../Containers/HeaderContainer";
-import popularCarData from "../data/popular-car.json";
+import PopularCarContainer from "../Containers/PopularCarContainer";
 import recommendationCarData from "../data/recommendation-car.json";
 import { Div, FlexDiv } from "../styles/assets/Div";
 import P from "../styles/assets/P";
@@ -16,37 +16,7 @@ const RentPage = () => {
             <Div width="100%" $backcolor="background" $padding="3%">
                 <AdvertisementContainer />
                 <AppointmentContainer />
-
-                <Div width="100%" $margin="50px 0 10px 0">
-                    <FlexDiv width="100%" $justifycontent="space-between" $margin="20px 0">
-                        <Div>
-                            <P color="secondary" $lineheight="21px" $fweight="600">
-                                Popular Car
-                            </P>
-                        </Div>
-                        <Div $pointer>
-                            <P color="primary" $lineheight="21px" $fweight="600">
-                                View All
-                            </P>
-                        </Div>
-                    </FlexDiv>
-                    <FlexDiv width="100%" $justifycontent="space-between">
-                        {popularCarData.slice(0, 4).map((car) => (
-                            <CarCard
-                                key={car.id} // key 추가
-                                name={car.name}
-                                type={car.type}
-                                image={car.image}
-                                fuelCapacity={car.fuelCapacity}
-                                gearType={car.gearType}
-                                seats={car.seats}
-                                isLiked={car.isLiked}
-                                originalPrice={car.originalPrice}
-                                salePrice={car.salePrice}
-                            />
-                        ))}
-                    </FlexDiv>
-                </Div>
+                <PopularCarContainer />
 
                 <FlexDiv direction="column" width="100%">
                     <FlexDiv width="100%" $justifycontent="space-between" $margin="20px 0">
