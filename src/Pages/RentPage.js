@@ -1,4 +1,5 @@
 import React from "react";
+import Advertisement from "../Components/Advertisement";
 import CarCard from "../Components/CarCard";
 import AppointmentContainer from "../Containers/AppointmentContainer";
 import BottomContainer from "../Containers/BottomContainer";
@@ -12,7 +13,11 @@ const RentPage = () => {
     return (
         <Div width="100%">
             <HeaderContainer />
-            <Div width="100%" $backcolor="background" $padding="0 3%">
+            <Div width="100%" $backcolor="background" $padding="3%">
+                <FlexDiv width="100%" $justifycontent="space-between" $margin="0 0 50px 0">
+                    <Advertisement pattern="circle" image="/images/ad1.png" />
+                    <Advertisement image="/images/ad2.png" />
+                </FlexDiv>
                 <AppointmentContainer />
 
                 <Div width="100%" $margin="50px 0 10px 0">
