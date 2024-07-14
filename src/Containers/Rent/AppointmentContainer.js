@@ -1,6 +1,6 @@
-import Appointment from "../Components/Appointment";
-import { Div, FlexDiv } from "../styles/assets/Div";
-import Img from "../styles/assets/Img";
+import Appointment from "../../Components/Rent/Appointment";
+import { Div, FlexDiv } from "../../styles/assets/Div";
+import Img from "../../styles/assets/Img";
 
 const AppointmentContainer = () => {
     return (

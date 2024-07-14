@@ -1,8 +1,8 @@
-import CarCard from "../Components/CarCard";
-import LongSquareBtn from "../Components/LongSquareBtn";
-import recommendationCarData from "../data/recommendation-car.json";
-import { Div, FlexDiv } from "../styles/assets/Div";
-import P from "../styles/assets/P";
+import CarCard from "../../Components/Common/CarCard";
+import LongSquareBtn from "../../Components/Common/LongSquareBtn";
+import recommendationCarData from "../../data/recommendation-car.json";
+import { Div, FlexDiv } from "../../styles/assets/Div";
+import P from "../../styles/assets/P";
 
 const RecommendationCarContainer = () => {
     return (

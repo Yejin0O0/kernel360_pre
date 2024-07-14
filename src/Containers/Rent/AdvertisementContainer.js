@@ -1,6 +1,6 @@
-import Advertisement from "../Components/Advertisement";
+import Advertisement from "../../Components/Rent/Advertisement";
 
-import { FlexDiv } from "../styles/assets/Div";
+import { FlexDiv } from "../../styles/assets/Div";
 
 const AdvertisementContainer = () => {
     return (

@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
-import Logo from "../Components/Logo";
-import { Div, FlexDiv } from "../styles/assets/Div";
-import Img from "../styles/assets/Img";
-import { Input } from "../styles/assets/Input";
+import Logo from "../../Components/Common/Logo";
+import { Div, FlexDiv } from "../../styles/assets/Div";
+import Img from "../../styles/assets/Img";
+import { Input } from "../../styles/assets/Input";
 
 const BellNotification = styled.div`
     width: 10px;

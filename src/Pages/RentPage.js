@@ -1,10 +1,10 @@
 import React from "react";
-import AdvertisementContainer from "../Containers/AdvertisementContainer";
-import AppointmentContainer from "../Containers/AppointmentContainer";
-import BottomContainer from "../Containers/BottomContainer";
-import HeaderContainer from "../Containers/HeaderContainer";
-import PopularCarContainer from "../Containers/PopularCarContainer";
-import RecommendationCarContainer from "../Containers/RecommendationCarContainer";
+import BottomContainer from "../Containers/Common/BottomContainer";
+import HeaderContainer from "../Containers/Common/HeaderContainer";
+import AdvertisementContainer from "../Containers/Rent/AdvertisementContainer";
+import AppointmentContainer from "../Containers/Rent/AppointmentContainer";
+import PopularCarContainer from "../Containers/Rent/PopularCarContainer";
+import RecommendationCarContainer from "../Containers/Rent/RecommendationCarContainer";
 import { Div } from "../styles/assets/Div";
 
 const RentPage = () => {

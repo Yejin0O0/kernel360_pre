@@ -1,6 +1,6 @@
 import React from "react";
-import BottomContainer from "../Containers/BottomContainer";
-import HeaderContainer from "../Containers/HeaderContainer";
+import BottomContainer from "../Containers/Common/BottomContainer";
+import HeaderContainer from "../Containers/Common/HeaderContainer";
 import { Div } from "../styles/assets/Div";
 import P from "../styles/assets/P";
 

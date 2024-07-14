@@ -1,10 +1,10 @@
 import React from "react";
 import styled from "styled-components";
-import { Div, FlexDiv } from "../styles/assets/Div";
-import { H1 } from "../styles/assets/H";
-import Img from "../styles/assets/Img";
-import P from "../styles/assets/P";
-import LongSquareBtn from "./LongSquareBtn";
+import { Div, FlexDiv } from "../../styles/assets/Div";
+import { H1 } from "../../styles/assets/H";
+import Img from "../../styles/assets/Img";
+import P from "../../styles/assets/P";
+import LongSquareBtn from "../Common/LongSquareBtn";
 
 const CirclePatternContainer = styled(FlexDiv)`
     background-color: #54a6ff;

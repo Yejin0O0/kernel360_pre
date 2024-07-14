@@ -1,8 +1,8 @@
 import { useState } from "react";
 import styled from "styled-components";
-import { Div, FlexDiv } from "../styles/assets/Div";
-import Img from "../styles/assets/Img";
-import P from "../styles/assets/P";
+import { Div, FlexDiv } from "../../styles/assets/Div";
+import Img from "../../styles/assets/Img";
+import P from "../../styles/assets/P";
 
 const DropDownList = styled("ul")`
     width: 100%;

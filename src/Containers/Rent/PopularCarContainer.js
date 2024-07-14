@@ -1,7 +1,7 @@
-import CarCard from "../Components/CarCard";
-import popularCarData from "../data/popular-car.json";
-import { Div, FlexDiv } from "../styles/assets/Div";
-import P from "../styles/assets/P";
+import CarCard from "../../Components/Common/CarCard";
+import popularCarData from "../../data/popular-car.json";
+import { Div, FlexDiv } from "../../styles/assets/Div";
+import P from "../../styles/assets/P";
 
 const PopularCarContainer = () => {
     return (

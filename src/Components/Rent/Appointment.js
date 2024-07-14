@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import { Div, FlexDiv } from "../styles/assets/Div";
-import P from "../styles/assets/P";
-import Dropdown from "./Dropdown";
+import { Div, FlexDiv } from "../../styles/assets/Div";
+import P from "../../styles/assets/P";
+import Dropdown from "../Common/Dropdown";
 
 const Point = styled.div`
     width: 11px;

@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
-import Logo from "../Components/Logo";
-import { Div, FlexDiv } from "../styles/assets/Div";
-import P from "../styles/assets/P";
+import Logo from "../../Components/Common/Logo";
+import { Div, FlexDiv } from "../../styles/assets/Div";
+import P from "../../styles/assets/P";
 
 const Hr = styled.hr`
     background: #131313;

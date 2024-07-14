@@ -1,8 +1,8 @@
 import { useState } from "react";
-import LongSquareBtn from "../Components/LongSquareBtn";
-import { Div, FlexDiv } from "../styles/assets/Div";
-import Img from "../styles/assets/Img";
-import P from "../styles/assets/P";
+import { Div, FlexDiv } from "../../styles/assets/Div";
+import Img from "../../styles/assets/Img";
+import P from "../../styles/assets/P";
+import LongSquareBtn from "../Common/LongSquareBtn";
 
 const CarCard = (props) => {
     const { name, type, image, fuelCapacity, gearType, seats, isLiked, originalPrice, salePrice } = props;
