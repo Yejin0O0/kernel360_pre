@@ -26,6 +26,7 @@ const HerringContainer = styled(FlexDiv)`
 
 const Advertisement = (props) => {
     const { pattern, image } = props;
+
     return (
         <>
             {pattern === "circle" ? (
@@ -64,7 +65,7 @@ const Advertisement = (props) => {
                             </Div>
                         </Div>
                         <FlexDiv width="100%" $justifycontent="start">
-                            <LongSquareBtn text="Rental Car" />
+                            <LongSquareBtn text="Rental Car" move="rentmore" />
                         </FlexDiv>
 
                         <FlexDiv height="275px" $position="absolute" $bottom="-45px">
@@ -108,7 +109,7 @@ const Advertisement = (props) => {
                             </Div>
                         </Div>
                         <FlexDiv width="100%" $justifycontent="start">
-                            <LongSquareBtn text="Rental Car" back="information" />
+                            <LongSquareBtn text="Rental Car" back="information" move="rentmore" />
                         </FlexDiv>
 
                         <FlexDiv height="275px" $position="absolute" $bottom="-45px">

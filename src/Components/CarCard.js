@@ -94,7 +94,7 @@ const CarCard = (props) => {
                         </P>
                     </Div>
                 </Div>
-                <LongSquareBtn btnWidth="116px" text="Rent Now" />
+                <LongSquareBtn btnWidth="116px" text="Rent Now" move="rentnow" />
             </FlexDiv>
         </FlexDiv>
     );

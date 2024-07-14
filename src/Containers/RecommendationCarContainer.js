@@ -30,7 +30,7 @@ const RecommendationCarContainer = () => {
                     />
                 ))}
             </FlexDiv>
-            <LongSquareBtn text="Show more car" />
+            <LongSquareBtn text="Show more car" move="rentmore" />
         </FlexDiv>
     );
 };
