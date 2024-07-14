@@ -1,6 +1,6 @@
 import React from "react";
-import Advertisement from "../Components/Advertisement";
 import CarCard from "../Components/CarCard";
+import AdvertisementContainer from "../Containers/AdvertisementContainer";
 import AppointmentContainer from "../Containers/AppointmentContainer";
 import BottomContainer from "../Containers/BottomContainer";
 import HeaderContainer from "../Containers/HeaderContainer";
@@ -14,10 +14,7 @@ const RentPage = () => {
         <Div width="100%">
             <HeaderContainer />
             <Div width="100%" $backcolor="background" $padding="3%">
-                <FlexDiv width="100%" $justifycontent="space-between" $margin="0 0 50px 0">
-                    <Advertisement pattern="circle" image="/images/ad1.png" />
-                    <Advertisement image="/images/ad2.png" />
-                </FlexDiv>
+                <AdvertisementContainer />
                 <AppointmentContainer />
 
                 <Div width="100%" $margin="50px 0 10px 0">
