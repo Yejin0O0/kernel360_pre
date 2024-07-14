@@ -1,4 +1,5 @@
 import CarCard from "../Components/CarCard";
+import LongSquareBtn from "../Components/LongSquareBtn";
 import recommendationCarData from "../data/recommendation-car.json";
 import { Div, FlexDiv } from "../styles/assets/Div";
 import P from "../styles/assets/P";
@@ -29,11 +30,7 @@ const RecommendationCarContainer = () => {
                     />
                 ))}
             </FlexDiv>
-            <FlexDiv height="44px" $radius="4" $padding="0 20px" $backcolor="primary" $pointer>
-                <P $fweight="600" $lineheight="24px" color="wh">
-                    Show more car
-                </P>
-            </FlexDiv>
+            <LongSquareBtn text="Show more car" />
         </FlexDiv>
     );
 };

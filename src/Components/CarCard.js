@@ -1,3 +1,4 @@
+import LongSquareBtn from "../Components/LongSquareBtn";
 import { Div, FlexDiv } from "../styles/assets/Div";
 import Img from "../styles/assets/Img";
 import P from "../styles/assets/P";
@@ -90,11 +91,12 @@ const CarCard = (props) => {
                         </P>
                     </Div>
                 </Div>
-                <FlexDiv width="116px" height="44px" $radius="4" $padding="0 20px" $backcolor="primary" $pointer>
+                {/* <FlexDiv width="116px" height="44px" $radius="4" $padding="0 20px" $backcolor="primary" $pointer>
                     <P $fweight="600" $lineheight="24px" color="wh">
                         Rent Now
                     </P>
-                </FlexDiv>
+                </FlexDiv> */}
+                <LongSquareBtn btnWidth="116px" text="Rent Now" />
             </FlexDiv>
         </FlexDiv>
     );

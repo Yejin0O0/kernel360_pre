@@ -4,6 +4,7 @@ import { Div, FlexDiv } from "../styles/assets/Div";
 import { H1 } from "../styles/assets/H";
 import Img from "../styles/assets/Img";
 import P from "../styles/assets/P";
+import LongSquareBtn from "./LongSquareBtn";
 
 const CirclePatternContainer = styled(FlexDiv)`
     background-color: #54a6ff;
@@ -63,11 +64,7 @@ const Advertisement = (props) => {
                             </Div>
                         </Div>
                         <FlexDiv width="100%" $justifycontent="start">
-                            <FlexDiv height="44px" $padding="0 20px" $backcolor="primary" $radius="4" $pointer>
-                                <P color="wh" $fweight="600" $lineheight="24px">
-                                    Rental Car
-                                </P>
-                            </FlexDiv>
+                            <LongSquareBtn text="Rental Car" />
                         </FlexDiv>
 
                         <FlexDiv height="275px" $position="absolute" $bottom="-45px">
@@ -111,11 +108,7 @@ const Advertisement = (props) => {
                             </Div>
                         </Div>
                         <FlexDiv width="100%" $justifycontent="start">
-                            <FlexDiv height="44px" $padding="0 20px" $backcolor="information" $radius="4" $pointer>
-                                <P color="wh" $fweight="600" $lineheight="24px">
-                                    Rental Car
-                                </P>
-                            </FlexDiv>
+                            <LongSquareBtn text="Rental Car" back="information" />
                         </FlexDiv>
 
                         <FlexDiv height="275px" $position="absolute" $bottom="-45px">
