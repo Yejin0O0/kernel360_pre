@@ -1,3 +1,4 @@
+import { useState } from "react";
 import LongSquareBtn from "../Components/LongSquareBtn";
 import { Div, FlexDiv } from "../styles/assets/Div";
 import Img from "../styles/assets/Img";
@@ -5,6 +6,8 @@ import P from "../styles/assets/P";
 
 const CarCard = (props) => {
     const { name, type, image, fuelCapacity, gearType, seats, isLiked, originalPrice, salePrice } = props;
+
+    const [like, setLike] = useState(isLiked);
     return (
         <FlexDiv
             $direction="column"
@@ -29,8 +32,8 @@ const CarCard = (props) => {
                         </P>
                     </Div>
                 </Div>
-                <Div width="24px" height="24px" $pointer>
-                    <Img src={isLiked ? "/icons/heart_red.svg" : "/icons/heart.svg"} />
+                <Div width="24px" height="24px" $pointer onClick={() => setLike(!like)}>
+                    <Img src={like ? "/icons/heart_red.svg" : "/icons/heart.svg"} />
                 </Div>
             </FlexDiv>
             {/* 자동차사진 */}
@@ -91,11 +94,6 @@ const CarCard = (props) => {
                         </P>
                     </Div>
                 </Div>
-                {/* <FlexDiv width="116px" height="44px" $radius="4" $padding="0 20px" $backcolor="primary" $pointer>
-                    <P $fweight="600" $lineheight="24px" color="wh">
-                        Rent Now
-                    </P>
-                </FlexDiv> */}
                 <LongSquareBtn btnWidth="116px" text="Rent Now" />
             </FlexDiv>
         </FlexDiv>
